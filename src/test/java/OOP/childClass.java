@@ -12,8 +12,9 @@ public class childClass implements interfaceRecap  {
 
 //    override should have same type and same count of parameters
     @Override
-    public void method1(int i1) {
+    public int method1(int i1) {
 
+        return i1;
     }
 
     /*
@@ -22,7 +23,8 @@ public class childClass implements interfaceRecap  {
     2)override should have same type and same count of parameters
     3)override can not have a different type of return type
     4)Override is in the two different classes (parent and child)
-    5)I can NOT override static and private method
+    5)I can NOT override static and private method (override should have a in the multiple classes
+            but in private method we can access just in the class)
 
     overload
     1)overload compile time polymorphism
@@ -47,11 +49,18 @@ public class childClass implements interfaceRecap  {
             return 2;
         }
 
-        public int method2(int i1){
+//          not allowed in the overload parameter type or count should be different
+//        public int method2(int i1){
+//
+//            return 4;
+//        }
 
-            return 4;
-        }
+/*
 
+    Overload where do you use it
+        select class in selenium
+        visible text or index
 
+ */
 
 }

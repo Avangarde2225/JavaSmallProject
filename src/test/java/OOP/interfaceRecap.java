@@ -11,7 +11,8 @@ public interface interfaceRecap {
 
 
 //5) All the methods are abstract (abstract methods doesnt have a body )
-    public void method1(int i2);
+    public int method1(int i2);
+
 
 //      6) All the variables are should be public
 //          private int i2 =10;
