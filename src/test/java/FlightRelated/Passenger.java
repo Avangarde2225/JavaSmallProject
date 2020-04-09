@@ -1,4 +1,4 @@
-package CheckedBag;
+package FlightRelated;
 
 public class Passenger {
     private double bagPerFee;
