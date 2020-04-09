@@ -6,6 +6,22 @@ public class MathEquation {
     public char opCode;
     public double result;
 
+    public MathEquation(){}
+    public MathEquation(char opCode){
+        this.opCode = opCode;
+    }
+    public MathEquation(char opCode, double leftVal, double rightVal){
+        this(opCode);
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+    }
+    public void execute(double leftVal, double rightVal){
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
+    }
+
     public void execute(){
         switch (opCode){
             case 'a':
