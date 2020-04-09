@@ -30,5 +30,7 @@ public class Passenger {
     }
 
 
-
+    public int getCheckedBags() {
+        return getCheckedBags();
+    }
 }

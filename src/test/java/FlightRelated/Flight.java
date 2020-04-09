@@ -23,6 +23,29 @@ public class Flight {
         }
     }
 
+    public void add1Passenger(int bags) {
+        if (hasSeating()) {
+            add1Passenger();
+            totalCheckedBags += bags;
+        }
+    }
+
+    public void add1Passenger(Passenger p) {
+        add1Passenger(p.getCheckedBags());
+    }
+
+    public void add1Passenger(int bags, int carryOns) {
+        if (hasSeating() && hasCarryOnSpace(carryOns)) {
+            add1Passenger(bags);
+            totalCarryOns += carryOns;
+        }
+    }
+
+    public void add1Passenger(Passenger p, int carryOns) {
+        add1Passenger(p.getCheckedBags(), carryOns);
+    }
+
+
     private void handleTooMany() {
     }
 
