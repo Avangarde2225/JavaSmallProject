@@ -1,7 +1,7 @@
 package Inheritance;
 
 public class CreditUI {
-    public void creditCalculate(EducationalCreditManager educationCredit){
-        educationCredit.calculate();
+    public void creditCalculate(BaseCreditManager baseCreditManager){
+        baseCreditManager.calculate();
     }
 }
