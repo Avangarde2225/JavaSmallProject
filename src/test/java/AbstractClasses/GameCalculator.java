@@ -1,7 +1,9 @@
 package AbstractClasses;
 
-public class GameCalculator {
-    public void calculate(){
-        System.out.println("You earned 100 points!");
+public abstract class GameCalculator {
+    public abstract void calculate();
+
+    public final void gameOver(){
+        System.out.println("Game is over");
     }
 }
