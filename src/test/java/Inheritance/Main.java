@@ -7,7 +7,7 @@ public class Main {
         FarmCreditManager farmCredit = new FarmCreditManager();
 
         CreditUI creditUI = new CreditUI();
-        creditUI.creditCalculate(new EducationalCreditManager());
+        creditUI.creditCalculate(new ArmyCreditManager());
 
     }
 
