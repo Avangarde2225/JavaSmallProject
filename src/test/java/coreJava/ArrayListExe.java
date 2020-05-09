@@ -1,3 +1,5 @@
+package coreJava;
+
 import java.util.ArrayList;
 
 public class ArrayListExe {

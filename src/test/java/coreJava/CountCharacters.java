@@ -1,3 +1,5 @@
+package coreJava;
+
 public class CountCharacters {
     static void count(String str){
         char [] ch = str.toCharArray();

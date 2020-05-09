@@ -1,3 +1,5 @@
+package coreJava;
+
 public class RemoveACharFromAnArray {
     public static void main(String args[]) {
         // 1st example: You can use substring() method to remove first

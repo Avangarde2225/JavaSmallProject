@@ -1,3 +1,5 @@
+package coreJava;
+
 public class githubRecap {
 
 //    git add  ->> add files to commit
