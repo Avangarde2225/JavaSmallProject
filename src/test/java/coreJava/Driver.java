@@ -27,6 +27,6 @@ class Car{
 class Main{
     public static void main(String[] args) {
         Driver rookie = new Driver("Halo", "Mazda", " XLS");
-        System.out.println(rookie.toString());
+        System.out.println(rookie);
     }
 }
