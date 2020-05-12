@@ -9,6 +9,7 @@ public class House {
         this.price = price;
     }
 
+
     public boolean isNew(){
         return true;
     }
