@@ -13,4 +13,8 @@ public class SingleHouse extends House {
         this.backyard = by;
         this.floors = f;
     }
+    @Override
+    public String toString(){
+        return "SingleHouse";
+    }
 }

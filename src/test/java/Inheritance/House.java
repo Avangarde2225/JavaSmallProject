@@ -13,6 +13,6 @@ public class House {
         return true;
     }
     public String toString(){
-        return super.toString();
+        return "House";
     }
 }
