@@ -3,6 +3,6 @@ package Polymorphism;
 public class MidTesterSalary extends TesterBaseSalary {
 
     public int getSalary(){
-        return
+        return super.getSalary() + 50000;
     }
 }

@@ -9,4 +9,8 @@ public class TesterBaseSalary {
     public int getSalary(){
         return 100000;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
