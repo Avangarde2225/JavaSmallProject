@@ -11,6 +11,10 @@ public class TesterBaseSalary {
     }
 
     public static void main(String[] args) {
+        TesterBaseSalary [] salaries = {new JuniorTesterSalary(), new MidTesterSalary(), new SeniorTesterSalary()};
+        for(TesterBaseSalary salary : salaries){
+            System.out.println(salary.getSalary());
+        }
 
     }
 }
