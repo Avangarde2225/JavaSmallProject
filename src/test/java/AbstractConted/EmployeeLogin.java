@@ -5,4 +5,9 @@ public class EmployeeLogin extends AbstractLogin {
     public void testLogin() {
 
     }
+
+    @Override
+    public void testPassword() {
+
+    }
 }
