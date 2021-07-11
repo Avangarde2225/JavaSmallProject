@@ -1,6 +1,6 @@
 package InterfaceConted;
 
-public interface Vehicle {
+public interface Vehicle extends VehiclesInTheSea {
         
     int speed();
 

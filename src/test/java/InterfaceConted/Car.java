@@ -5,4 +5,9 @@ public class Car implements Vehicle {
     public int speed() {
         return 0;
     }
+
+    @Override
+    public int length() {
+        return 0;
+    }
 }
